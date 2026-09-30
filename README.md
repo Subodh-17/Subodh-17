@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/profile_banner.jpg" alt="Profile Banner" width="100%">
+</div>
+
 # Subodh
 **AI/ML • Open Source • Data • Software Engineering**
 
@@ -23,12 +27,27 @@ I build machine learning systems, data engineering pipelines, and contribute ups
 
 ## Tech Stack
 
-- **Languages:** Python, Java, Solidity
-- **AI / ML:** PyTorch, TensorFlow, Hugging Face, Scilab
-- **Backend / APIs:** FastAPI
-- **Infrastructure / Data:** Docker, Kubernetes, PostgreSQL
-- **Blockchain / Web3:** IPFS
-- **Developer Tools:** Git
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Scilab-4A8B9F?style=for-the-badge&logo=scilab&logoColor=white" alt="Scilab" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white" alt="IPFS" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
 ## Current Focus
 
