@@ -1,11 +1,9 @@
 <div align="center">
 
 # SUBODH BANSODE
-### AI/ML • DATA • OPEN SOURCE
+### AI/ML • DATA SYSTEMS • OPEN SOURCE
 
-Building practical AI/ML and data-driven systems, contributing to open source, and solving real-world problems with software.
-
-B.Tech CSE | AI/ML & Data Focus | Open-source Contributor | Aspiring GSoC 2027
+Building ML systems, data-intensive applications, and open-source infrastructure.
 
 <br>
 
@@ -21,20 +19,27 @@ B.Tech CSE | AI/ML & Data Focus | Open-source Contributor | Aspiring GSoC 2027
 <br>
 
 ## 🚀 Core Focus
-- **AI / Machine Learning**
-- **Data & Analytics**
-- **Open Source / Developer Tooling**
-- **Full-Stack AI Systems**
+- **ML Systems**
+- **Data-Intensive Applications**
+- **Computer Vision / Remote Sensing**
+- **Backend / Data Infrastructure**
+- **Open-Source ML Tooling**
 
-## 💻 Technical Skills
+## 💻 Technical Stack
 
-**AI & Data:** Python, PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, PostgreSQL, PostGIS  
-**Backend & DevOps:** FastAPI, Node.js, Git/GitHub, Docker, Kubernetes  
-**Web:** React, Vite  
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/PostGIS-336791?style=flat-square&logo=postgresql&logoColor=white" alt="PostGIS"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+</p>
 
 ## 🌐 Open Source Contributions
-
-I actively contribute to foundational AI/ML infrastructure and developer tooling. Here are my current meaningful contributions:
 
 - **[Hugging Face Diffusers (PR #14961)](https://github.com/huggingface/diffusers/pull/14961)**
   - *Fix active adapter detection for text encoders*
@@ -51,33 +56,34 @@ I actively contribute to foundational AI/ML infrastructure and developer tooling
 
 ## 🛠️ Selected Projects
 
-### [Marine Pollution Intelligence – SIH](https://github.com/Subodh-17/Marine-Pollution-Intelligence-SIH)
-> **Oil-spill detection utilizing computer vision and satellite imagery.**
-> - Processes Sentinel-1 SAR data using Machine Learning.
-> - Full-stack delivery via FastAPI and React.
+### [Marine Pollution Intelligence](https://github.com/Subodh-17/Marine-Pollution-Intelligence-SIH)
+End-to-end pipeline for detecting maritime oil spills and attributing them to responsible vessels.
+- Implements Sentinel-1 SAR oil-slick detection and geometric characterization.
+- Reconstructs historic AIS traffic and correlates it with drift hindcasting for vessel attribution scoring.
+- Built with a FastAPI backend and interactive React map dashboard.
 
-### [Predictive Logistics – SIH](https://github.com/Subodh-17/Predictive_Logistics_SIH_26251)
-> **AI-driven logistics and supply-chain optimization system.**
-> - Built with React/Vite, FastAPI, and PostgreSQL/PostGIS.
-> - Focuses on scalable data-driven routing and predictive analysis.
+### [Predictive Logistics](https://github.com/Subodh-17/Predictive_Logistics_SIH_26251)
+Full-stack forward supply chain simulation and predictive decision-support system.
+- Predicts consumption shortages and optimizes delivery routing logic.
+- Integrates geospatial data routing and a simulated ESP32/RFID sensor layer.
+- Architecture driven by FastAPI, PostgreSQL/PostGIS, SQLAlchemy, and React/Vite in Docker.
 
 ### [Blue Carbon MRV](https://github.com/Subodh-17/WCEHackathon2026_Proteas)
-> **Sustainability and environmental data tracking.**
-> - Powered by Node.js, Solidity, and blockchain technology.
-> - Designed for transparent environmental reporting and MRV (Measurement, Reporting, and Verification).
+Measurement, Reporting, and Verification platform for coastal blue carbon restoration projects.
+- Deploys environmental data persistence and verification workflows utilizing Solidity and Hardhat.
+- Provides specialized admin dashboards and field-worker mobile interfaces.
+- Driven by a Node.js/Express backend coupled with PostgreSQL.
 
-### [Stock Prediction (Stockvision)](https://github.com/Subodh-17/stockvision-scilab-gui)
-> **Time-series forecasting for financial data.**
-> - Implements regression models and LSTMs.
-> - Built utilizing Python and Scilab toolkits.
+### [StockVision](https://github.com/Subodh-17/stockvision-scilab-gui)
+Interactive time-series forecasting and market analysis tool.
+- Fits Linear Regression, AR models, and Holt Exponential Smoothing.
+- Executes 3-fold walk-forward validation and backtests BUY/SELL signals against standard benchmarks.
+- Developed entirely as an interactive Scilab GUI.
 
-## 📚 Currently Learning / Exploring
-- Open-source ML infrastructure
-- PyTorch / Hugging Face ecosystem
-- Scalable data and backend systems
-- GATE 2027 preparation.
+## 📈 GitHub Activity
 
----
 <div align="center">
-  <i>Build. Contribute. Learn. Repeat.</i>
+  <a href="https://github.com/Subodh-17">
+    <img src="https://ghchart.rshah.org/1F2937/Subodh-17" alt="GitHub Contribution Chart" />
+  </a>
 </div>
