@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # SUBODH BANSODE
 ### AI/ML • DATA • OPEN SOURCE
@@ -12,7 +12,7 @@ B.Tech CSE | AI/ML & Data Focus | Open-source Contributor | Aspiring GSoC 2027
 <a href="https://github.com/Subodh-17">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="mailto:subodhrandom17@gmail.com">
+<a href="mailto:subodh171011@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
@@ -72,9 +72,10 @@ I actively contribute to foundational AI/ML infrastructure and developer tooling
 > - Built utilizing Python and Scilab toolkits.
 
 ## 📚 Currently Learning / Exploring
-- Deepening knowledge in internal ML model optimizations.
+- Open-source ML infrastructure
+- PyTorch / Hugging Face ecosystem
+- Scalable data and backend systems
 - GATE 2027 preparation.
-- System design for scalable data-driven backends.
 
 ---
 <div align="center">
