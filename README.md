@@ -18,7 +18,7 @@ Building ML systems, data-intensive applications, and open-source infrastructure
 
 <br>
 
-## 🚀 Core Focus
+## 🎯 Core Focus
 - **ML Systems**
 - **Data-Intensive Applications**
 - **Computer Vision / Remote Sensing**
@@ -41,20 +41,31 @@ Building ML systems, data-intensive applications, and open-source infrastructure
 
 ## 🌐 Open Source Contributions
 
-- **[Hugging Face Diffusers (PR #14961)](https://github.com/huggingface/diffusers/pull/14961)**
-  - *Fix active adapter detection for text encoders*
-  - **Status:** Open — maintainer-approved, awaiting dependency/merge coordination.
-- **[SafeTensors (PR #873)](https://github.com/huggingface/safetensors/pull/873)**
-  - *Fix: allow slicing zero-length dimensions (Replaces #869)*
-  - **Status:** Open — awaiting maintainer review.
-- **[SafeTensors (PR #871)](https://github.com/huggingface/safetensors/pull/871)**
-  - *Fix: handle non-contiguous NumPy arrays in save_file*
-  - **Status:** Open — awaiting maintainer review.
-- **[SafeTensors (PR #872)](https://github.com/huggingface/safetensors/pull/872)**
-  - *Fix: support negative slice bounds*
-  - **Status:** Open — awaiting maintainer review.
+### Hugging Face Diffusers
 
-## 🛠️ Selected Projects
+- **[PR #14961](https://github.com/huggingface/diffusers/pull/14961)** — Fix active adapter detection for text encoders
+  - **Status:** Merged
+- **[PR #14990](https://github.com/huggingface/diffusers/pull/14990)** — Fix Qwen Image 2.1 transformer compatibility with `torch.compile`
+  - **Status:** Open — awaiting maintainer review
+- **[PR #14984](https://github.com/huggingface/diffusers/pull/14984)** — Fix singleton dimensions in `numpy_to_pil`
+  - **Status:** Open
+- **[PR #14983](https://github.com/huggingface/diffusers/pull/14983)** — Remove incorrect `text_ids` concatenation in Flux DreamBooth LoRA training
+  - **Status:** Open
+- **[PR #14982](https://github.com/huggingface/diffusers/pull/14982)** — Fix prior preservation weighting in advanced DreamBooth LoRA
+  - **Status:** Open
+- **[PR #14971](https://github.com/huggingface/diffusers/pull/14971)** — Fix offline loading of sharded checkpoints
+  - **Status:** Open
+
+### Hugging Face SafeTensors
+
+- **[PR #873](https://github.com/huggingface/safetensors/pull/873)** — Allow slicing zero-length dimensions
+  - **Status:** Open — awaiting maintainer review
+- **[PR #871](https://github.com/huggingface/safetensors/pull/871)** — Handle non-contiguous NumPy arrays in `save_file`
+  - **Status:** Closed — duplicate/superseded
+- **[PR #872](https://github.com/huggingface/safetensors/pull/872)** — Support negative slice bounds
+  - **Status:** Closed — duplicate/superseded
+
+## 🚀 Selected Projects
 
 ### [Marine Pollution Intelligence](https://github.com/Subodh-17/Marine-Pollution-Intelligence-SIH)
 End-to-end pipeline for detecting maritime oil spills and attributing them to responsible vessels.
@@ -80,10 +91,13 @@ Interactive time-series forecasting and market analysis tool.
 - Executes 3-fold walk-forward validation and backtests BUY/SELL signals against standard benchmarks.
 - Developed entirely as an interactive Scilab GUI.
 
-## 📈 GitHub Activity
+## 📊 Activity Overview
 
-<div align="center">
-  <a href="https://github.com/Subodh-17">
-    <img src="https://ghchart.rshah.org/1F2937/Subodh-17" alt="GitHub Contribution Chart" />
-  </a>
-</div>
+| Area | Current Activity |
+|---|---|
+| **Diffusers** | 1 merged • 5 open PRs |
+| **SafeTensors** | 1 active PR • 2 duplicate/superseded PRs closed |
+| **Open Source** | Active contributions across ML infrastructure and tooling |
+| **Focus** | ML systems • data infrastructure • computer vision • developer tooling |
+
+> Building, testing, reviewing, and contributing to real-world ML infrastructure.
