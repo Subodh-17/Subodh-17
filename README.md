@@ -91,13 +91,52 @@ Interactive time-series forecasting and market analysis tool.
 - Executes 3-fold walk-forward validation and backtests BUY/SELL signals against standard benchmarks.
 - Developed entirely as an interactive Scilab GUI.
 
-## 📊 Activity Overview
+## 📊 Open Source Activity
 
-| Area | Current Activity |
-|---|---|
-| **Diffusers** | 1 merged • 5 open PRs |
-| **SafeTensors** | 1 active PR • 2 duplicate/superseded PRs closed |
-| **Open Source** | Active contributions across ML infrastructure and tooling |
-| **Focus** | ML systems • data infrastructure • computer vision • developer tooling |
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="200">
+        <b>🤗 Diffusers</b><br>
+        6 PRs<br>
+        1 merged • 5 open
+      </td>
+      <td align="center" width="200">
+        <b>🔐 SafeTensors</b><br>
+        3 PRs<br>
+        1 active • 2 superseded
+      </td>
+      <td align="center" width="200">
+        <b>🛠️ Focus</b><br>
+        ML systems<br>
+        data infrastructure
+      </td>
+    </tr>
+  </table>
+</div>
 
-> Building, testing, reviewing, and contributing to real-world ML infrastructure.
+<div align="center">
+  <img src="https://img.shields.io/badge/Contributions-Open%20Source-2EA043?style=flat-square" alt="Contributions - Open Source" />
+  <img src="https://img.shields.io/badge/Focus-ML%20Infrastructure-0366D6?style=flat-square" alt="Focus - ML Infrastructure" />
+  <img src="https://img.shields.io/badge/Focus-Computer%20Vision-D73A49?style=flat-square" alt="Focus - Computer Vision" />
+</div>
+
+<br>
+
+### 🔄 Contribution Flow
+
+```text
+       Identify Issue
+             ↓
+  Reproduce / Investigate
+             ↓
+   Implement Focused Fix
+             ↓
+   Add Regression Tests
+             ↓
+      Run Validation
+             ↓
+Open PR → Maintainer Review → Merge
+```
+
+> Building, testing, reviewing, and contributing to real-world ML infrastructure — with a focus on reproducible fixes and meaningful upstream work.
