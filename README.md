@@ -19,7 +19,7 @@ I build systems software, machine learning tooling, and data-intensive applicati
   *Stack: Scilab (Numerics, Least Squares, GUI Engine, Plotting)*
 
 - **[Blue Carbon MRV](https://github.com/Subodh-17/WCEHackathon2026_Proteas)**
-  Measurement, Reporting, and Verification (MRV) platform for coastal blue carbon restoration projects. Pairs mobile ecological field-data collection with a Node.js registry backend and an ERC-20 smart contract for audit-ready carbon credit issuance.
+  Measurement, Reporting, and Verification (MRV) platform for coastal blue carbon restoration projects. Pairs mobile ecological field-data collection with a Node.js registry backend and the BlueCarbonRegistry Solidity smart contract for recording carbon-credit issuance.
   *Stack: Solidity, Hardhat, Node.js, Express, PostgreSQL, JavaScript*
 
 ## Open-Source Contributions
