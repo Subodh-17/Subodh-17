@@ -2,11 +2,11 @@
 
 
 
-<img src="assets/profile_banner.jpg" alt="Subodh Bansode Profile Banner" width="100%" />
+<img src="assets/profile_banner.jpg" alt="Subodh Bansode Portfolio Banner — Systems and ML Engineering" width="100%" />
 
 
 
-<br><br>
+<br>
 
 
 
@@ -14,11 +14,11 @@
 
 
 
-### Systems & Machine Learning Infrastructure Engineer
+### Computer Science Student | Systems & ML Engineering
 
 
 
-<p><strong>Analytical Query Engines &bull; ML Inference Runtimes &bull; Geospatial Systems &bull; Developer Infrastructure</strong></p>
+<p><strong>Vectorized Query Engines &bull; ML Runtime Systems &bull; Geospatial Pipelines &bull; OSS Infrastructure</strong></p>
 
 
 
@@ -90,7 +90,7 @@
 
 
 
-Systems and machine learning infrastructure engineer specializing in analytical query execution kernels, runtime determinism, zero-copy serialization, and production data infrastructure. Upstream open-source contributor across foundational systems: **Apache DataFusion** (Rust vectorized query engine), **SafeTensors**, and **PyTorch Lightning**, alongside **10 verified merged upstream pull requests across 8 open-source repositories**. Committed to empirical software engineering: isolating root causes, implementing minimal non-breaking patches, writing deterministic regression tests, and collaborating through peer review.
+Computer science student and systems contributor specializing in analytical query execution kernels, runtime determinism, zero-copy serialization, and production data infrastructure. Upstream open-source contributor across foundational systems: **Apache DataFusion** (Rust vectorized query engine), **SafeTensors**, and **PyTorch Lightning**, alongside **10 verified merged upstream pull requests across 8 open-source repositories**. Committed to empirical software engineering: isolating root causes, implementing minimal non-breaking patches, writing deterministic regression tests, and collaborating transparently through upstream peer review.
 
 
 
@@ -170,29 +170,29 @@ Systems and machine learning infrastructure engineer specializing in analytical 
 
 
 
-| Ecosystem | Pull Request | Contribution Summary & Upstream Review | Status |
+| Pull Request & Ecosystem | Contribution Summary & Upstream Review | Status |
 
-| :--- | :--- | :--- | :---: |
+| :--- | :--- | :---: |
 
-| [![Apache DataFusion](https://img.shields.io/badge/Apache_DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)](https://datafusion.apache.org/) | [apache/datafusion#26465](https://github.com/apache/datafusion/pull/26465) | Propagated CLI row count argument through Criterion benchmark harness, preventing hardcoded defaults.<br>*(Merged by Apache DataFusion PMC Chair `@alamb`, approved by committer `@kumarUjjawal`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [apache/datafusion#26465](https://github.com/apache/datafusion/pull/26465)<br>[![Apache DataFusion](https://img.shields.io/badge/Apache_DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)](https://datafusion.apache.org/) | Propagated CLI row count argument through Criterion benchmark harness, preventing hardcoded defaults.<br>*(Merged by Apache DataFusion PMC Chair `@alamb`, approved by committer `@kumarUjjawal`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![Hugging Face Diffusers](https://img.shields.io/badge/Hugging_Face_Diffusers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://github.com/huggingface/diffusers) | [huggingface/diffusers#14961](https://github.com/huggingface/diffusers/pull/14961) | Corrected active PEFT LoRA adapter tracking across text encoders during multi-adapter inference pipelines.<br>*(Approved by PEFT maintainer `@BenjaminBossan`, reviewed by Diffusers lead `@sayakpaul`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [huggingface/diffusers#14961](https://github.com/huggingface/diffusers/pull/14961)<br>[![Hugging Face Diffusers](https://img.shields.io/badge/Hugging_Face_Diffusers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://github.com/huggingface/diffusers) | Corrected active PEFT LoRA adapter tracking across text encoders during multi-adapter inference pipelines.<br>*(Approved by PEFT maintainer `@BenjaminBossan`, reviewed by Diffusers lead `@sayakpaul`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![PatchPilot](https://img.shields.io/badge/PatchPilot-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/ionfwsrijan/PatchPilot) | [ionfwsrijan/PatchPilot#350](https://github.com/ionfwsrijan/PatchPilot/pull/350) | Prioritized vulnerability findings by normalized severity scoring across backend scanner outputs.<br>*(Approved & merged by maintainer `@ionfwsrijan`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [ionfwsrijan/PatchPilot#350](https://github.com/ionfwsrijan/PatchPilot/pull/350)<br>[![PatchPilot](https://img.shields.io/badge/PatchPilot-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/ionfwsrijan/PatchPilot) | Prioritized vulnerability findings by normalized severity scoring across backend scanner outputs.<br>*(Approved & merged by maintainer `@ionfwsrijan`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![Sentient](https://img.shields.io/badge/Sentient-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/existence-master/Sentient) | [existence-master/Sentient#295](https://github.com/existence-master/Sentient/pull/295) | Implemented target-scoped CDP download isolation to preserve user browser download integrity during automation sessions.<br>*(Approved by maintainer `@itsskofficial`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [existence-master/Sentient#295](https://github.com/existence-master/Sentient/pull/295)<br>[![Sentient](https://img.shields.io/badge/Sentient-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/existence-master/Sentient) | Implemented target-scoped CDP download isolation to preserve user browser download integrity during automation sessions.<br>*(Approved by maintainer `@itsskofficial`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![Sentient](https://img.shields.io/badge/Sentient-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/existence-master/Sentient) | [existence-master/Sentient#326](https://github.com/existence-master/Sentient/pull/326) | Isolated Model Context Protocol (MCP) OAuth credentials by server URL to prevent cross-server credential collisions and leakage.<br>*(Approved by maintainer `@itsskofficial`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [existence-master/Sentient#326](https://github.com/existence-master/Sentient/pull/326)<br>[![Sentient](https://img.shields.io/badge/Sentient-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/existence-master/Sentient) | Isolated Model Context Protocol (MCP) OAuth credentials by server URL to prevent cross-server credential collisions and leakage.<br>*(Approved by maintainer `@itsskofficial`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![Agents Shipgate](https://img.shields.io/badge/Agents_Shipgate-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ThreeMoonsLab/agents-shipgate) | [ThreeMoonsLab/agents-shipgate#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007) | Resolved PEP 508 extras-qualified pin parsing failures during deterministic dependency lockfile verification.<br>*(Approved by `@pengfei-threemoonslab`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [ThreeMoonsLab/agents-shipgate#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007)<br>[![Agents Shipgate](https://img.shields.io/badge/Agents_Shipgate-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ThreeMoonsLab/agents-shipgate) | Resolved PEP 508 extras-qualified pin parsing failures during deterministic dependency lockfile verification.<br>*(Approved by `@pengfei-threemoonslab`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![CodePrism](https://img.shields.io/badge/CodePrism-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knight22-21/CodePrism) | [knight22-21/CodePrism#72](https://github.com/knight22-21/CodePrism/pull/72) | Enforced strict schema validation to reject unknown configuration keys and prevent silent runtime fallbacks.<br>*(Approved by `@knight22-21`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [knight22-21/CodePrism#72](https://github.com/knight22-21/CodePrism/pull/72)<br>[![CodePrism](https://img.shields.io/badge/CodePrism-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knight22-21/CodePrism) | Enforced strict schema validation to reject unknown configuration keys and prevent silent runtime fallbacks.<br>*(Approved by `@knight22-21`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![CodePrism](https://img.shields.io/badge/CodePrism-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knight22-21/CodePrism) | [knight22-21/CodePrism#70](https://github.com/knight22-21/CodePrism/pull/70) | Corrected complex PEP 440 version specifier parsing for dependency constraint boundaries.<br>*(Approved by `@knight22-21`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [knight22-21/CodePrism#70](https://github.com/knight22-21/CodePrism/pull/70)<br>[![CodePrism](https://img.shields.io/badge/CodePrism-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knight22-21/CodePrism) | Corrected complex PEP 440 version specifier parsing for dependency constraint boundaries.<br>*(Approved by `@knight22-21`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![SquidBrake](https://img.shields.io/badge/SquidBrake-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/batrapulkit/squidbrake) | [batrapulkit/squidbrake#51](https://github.com/batrapulkit/squidbrake/pull/51) | Established cross-platform GitHub Actions CI test matrices across Linux, Windows, macOS, and Python 3.13.<br>*(Merged by maintainer `@batrapulkit`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [batrapulkit/squidbrake#51](https://github.com/batrapulkit/squidbrake/pull/51)<br>[![SquidBrake](https://img.shields.io/badge/SquidBrake-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/batrapulkit/squidbrake) | Established cross-platform GitHub Actions CI test matrices across Linux, Windows, macOS, and Python 3.13.<br>*(Merged by maintainer `@batrapulkit`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
-| [![Corsair](https://img.shields.io/badge/Corsair-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/corsairdev/corsair) | [corsairdev/corsair#1398](https://github.com/corsairdev/corsair/pull/1398) | Integrated Dynapictures dynamic image generation plugin into the Corsair TypeScript framework.<br>*(Approved by `@devjain32`, `@Dhirenderchoudhary`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
+| [corsairdev/corsair#1398](https://github.com/corsairdev/corsair/pull/1398)<br>[![Corsair](https://img.shields.io/badge/Corsair-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/corsairdev/corsair) | Integrated Dynapictures dynamic image generation plugin into the Corsair TypeScript framework.<br>*(Approved by `@devjain32`, `@Dhirenderchoudhary`)* | ![Merged](https://img.shields.io/badge/Merged-2da44e?style=flat-square&logo=git&logoColor=white) |
 
 
 
@@ -204,17 +204,17 @@ Systems and machine learning infrastructure engineer specializing in analytical 
 
 
 
-| Ecosystem | Pull Request | Contribution Scope & Verification Evidence | Status |
+| Pull Request & Ecosystem | Contribution Scope & Verification Evidence | Status |
 
-| :--- | :--- | :--- | :---: |
+| :--- | :--- | :---: |
 
-| [![Apache DataFusion](https://img.shields.io/badge/Apache_DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)](https://datafusion.apache.org/) | [apache/datafusion#26376](https://github.com/apache/datafusion/pull/26376) | `fix(expr): differentiate aggregate functions with and without explicit cast in output schema (#26221)`. Rebased schema inference across 33 files; all required CI checks passing with zero merge conflicts against upstream `origin/main`. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
+| [apache/datafusion#26376](https://github.com/apache/datafusion/pull/26376)<br>[![Apache DataFusion](https://img.shields.io/badge/Apache_DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)](https://datafusion.apache.org/) | `fix(expr): differentiate aggregate functions with and without explicit cast in output schema (#26221)`. Rebased schema inference across 33 files; all required CI checks passing with zero merge conflicts against upstream `origin/main`. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
 
-| [![SafeTensors](https://img.shields.io/badge/SafeTensors-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://github.com/huggingface/safetensors) | [safetensors/safetensors#873](https://github.com/safetensors/safetensors/pull/873) | `fix: allow slicing zero-length dimensions`. Supported zero-length slice operations in Rust tensor core without panics. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
+| [safetensors/safetensors#873](https://github.com/safetensors/safetensors/pull/873)<br>[![SafeTensors](https://img.shields.io/badge/SafeTensors-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://github.com/huggingface/safetensors) | `fix: allow slicing zero-length dimensions`. Supported zero-length slice operations in Rust tensor core without panics. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
 
-| [![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=flat-square&logo=lightning&logoColor=white)](https://github.com/Lightning-AI/pytorch-lightning) | [Lightning-AI/pytorch-lightning#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006) | `fix: set sampler epoch before creating resumed iterator`. Synchronized sampler epoch state prior to iterator initialization for deterministic distributed training restarts. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
+| [Lightning-AI/pytorch-lightning#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006)<br>[![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=flat-square&logo=lightning&logoColor=white)](https://github.com/Lightning-AI/pytorch-lightning) | `fix: set sampler epoch before creating resumed iterator`. Synchronized sampler epoch state prior to iterator initialization for deterministic distributed training restarts. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
 
-| [![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=flat-square&logo=lightning&logoColor=white)](https://github.com/Lightning-AI/pytorch-lightning) | [Lightning-AI/pytorch-lightning#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017) | `Improve error message for mixed strategy namespaces`. Validated distributed strategy configuration combinations and error diagnostics. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
+| [Lightning-AI/pytorch-lightning#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017)<br>[![PyTorch Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=flat-square&logo=lightning&logoColor=white)](https://github.com/Lightning-AI/pytorch-lightning) | `Improve error message for mixed strategy namespaces`. Validated distributed strategy configuration combinations and error diagnostics. | ![In Review](https://img.shields.io/badge/In_Review-0969da?style=flat-square&logo=github&logoColor=white) |
 
 
 
