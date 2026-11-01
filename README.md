@@ -2,7 +2,7 @@
 
 **Computer Science Student | Systems & ML Engineering**
 
-I build systems software, machine learning tooling, and data-intensive applications. My recent work centers on analytical query engines, ML inference runtimes, and distributed geospatial data pipelines.
+I build systems software, machine learning tooling, and data-intensive applications. My recent work centers on analytical query engines, ML training & inference runtimes, and distributed agent telemetry pipelines.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -70,22 +70,33 @@ I build systems software, machine learning tooling, and data-intensive applicati
 
 ## Open-Source Contributions
 
-A curated selection of upstream contributions focused on fixing runtime bugs, standardizing CI test matrices, and handling core edge cases.
+A curated selection of upstream contributions focused on fixing runtime bugs, standardizing CI test matrices, and hardening edge-case handling across distributed systems, ML runtimes, and autonomous agent frameworks.
 
 ### Merged Upstream
 
-- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[apache/datafusion#26465](https://github.com/apache/datafusion/pull/26465)** -- Passed CLI row counts into GCD function benchmarks in the DataFusion query engine.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[apache/datafusion#26465](https://github.com/apache/datafusion/pull/26465)** -- Passed CLI row counts into GCD function benchmarks in the DataFusion analytical query engine.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[huggingface/diffusers#14961](https://github.com/huggingface/diffusers/pull/14961)** -- Fixed active LoRA adapter detection for dual text encoders in multi-modal diffusion pipelines.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[Karan-Raj-KR/crewai-recipes#242](https://github.com/Karan-Raj-KR/crewai-recipes/pull/242)** -- Added structured JSON CLI output parsing for multi-agent customer onboarding pipelines (#169).
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[Karan-Raj-KR/crewai-recipes#229](https://github.com/Karan-Raj-KR/crewai-recipes/pull/229)** -- Implemented in-memory rate limiting to prevent runaway execution loops in agent playgrounds (#181).
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[aeshef/obsidian-agent#68](https://github.com/aeshef/obsidian-agent/pull/68)** -- Added per-chart reset state management and frontmatter isolation for knowledge graph telemetry.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[existence-master/Sentient#295](https://github.com/existence-master/Sentient/pull/295)** -- Preserved persistent file downloads during active browser sandbox attachment sessions.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[existence-master/Sentient#326](https://github.com/existence-master/Sentient/pull/326)** -- Enforced URL-scoped isolation for OAuth credentials across multi-server MCP configurations.
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[Shinraya-Tech-Labs/AgentWatch#784](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/784)** -- Added standardized MCP protocol error normalizer and classification engine (fixes #745).
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[Shinraya-Tech-Labs/AgentWatch#754](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/754)** -- Implemented interval temporal logic and happens-before relationship ordering in execution contracts (#729).
+- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[ThreeMoonsLab/agents-shipgate#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007)** -- Fixed parsing of PEP 508 extras-qualified dependencies during strict lockfile verification.
 - ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[ionfwsrijan/PatchPilot#350](https://github.com/ionfwsrijan/PatchPilot/pull/350)** -- Implemented normalized severity ranking and deduplication in the security finding pipeline.
-- ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[ThreeMoonsLab/agents-shipgate#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007)** -- Fixed parsing of PEP 508 extras-qualified pins during lockfile verification.
 - ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[batrapulkit/squidbrake#51](https://github.com/batrapulkit/squidbrake/pull/51)** -- Established cross-platform GitHub Actions CI test matrices across Linux, Windows, macOS, and Python 3.13.
 - ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[knight22-21/CodePrism#72](https://github.com/knight22-21/CodePrism/pull/72)** -- Added strict configuration schema validation to reject unmapped settings and prevent silent fallbacks.
 - ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square) **[corsairdev/corsair#1398](https://github.com/corsairdev/corsair/pull/1398)** -- Integrated dynamic image asset generation plugin into the TypeScript framework core.
 
 ### Active Work (In Review)
 
-- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[ionfwsrijan/PatchPilot#354](https://github.com/ionfwsrijan/PatchPilot/pull/354)** -- Persists triaged finding status across page reloads (fixes [#319](https://github.com/ionfwsrijan/PatchPilot/issues/319)). All backend, frontend, coverage, and security CI gates passing; awaiting maintainer review.
-- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[safetensors/safetensors#873](https://github.com/safetensors/safetensors/pull/873)** -- Adds zero-length tensor slice handling in the Rust core to prevent panics on empty slices.
-- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[Lightning-AI/pytorch-lightning#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006)** -- Synchronizes sampler epoch state before iterator initialization for deterministic resumed training restarts.
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[ThreeMoonsLab/agents-shipgate#1105](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1105)** -- Normalizes YAML timestamp serialization in host-grant configuration hashing (14/14 CI checks green).
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[Lightning-AI/pytorch-lightning#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017)** -- Improves error diagnostics and namespace resolution for mixed strategies in `AcceleratorConnector` (11/11 CI jobs green).
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[Lightning-AI/pytorch-lightning#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006)** -- Preserves sampler epoch progression across checkpoint restarts in `FitLoop` (reproduction verified).
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[ionfwsrijan/PatchPilot#354](https://github.com/ionfwsrijan/PatchPilot/pull/354)** -- Persists triaged finding status across page reloads and resolves concurrent token refresh race conditions (8/8 CI checks green).
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[safetensors/safetensors#873](https://github.com/safetensors/safetensors/pull/873)** -- Adds zero-length tensor dimension slicing support in the PyTorch backend to prevent memory leaks and panics.
+- ![In Review](https://img.shields.io/badge/In_Review-2da44e?style=flat-square) **[modelscope/ms-swift#10289](https://github.com/modelscope/ms-swift/pull/10289)** -- Resolves unhandled `None` kwargs during CLI command dispatch and ZeRO-3 initialization.
 
 [View full contribution history on GitHub →](https://github.com/Subodh-17?tab=overview)
 
@@ -97,7 +108,7 @@ A curated selection of upstream contributions focused on fixing runtime bugs, st
 | :--- | :--- |
 | **Languages** | Python, Rust, TypeScript, JavaScript, SQL (PostgreSQL), Scilab, Solidity |
 | **Systems & Data Engineering** | Apache Arrow / DataFusion, PostgreSQL / PostGIS, SQLAlchemy, FastAPI, Node.js, Express |
-| **Machine Learning & Numerics** | PyTorch, Hugging Face (`transformers`, `diffusers`, `safetensors`), PyTorch Lightning, Scikit-Learn, NumPy |
+| **Machine Learning & Numerics** | PyTorch, PyTorch Lightning, SafeTensors, Hugging Face Diffusers, Scikit-Learn, NumPy |
 | **Infrastructure & Protocols** | Git, GitHub Actions, Docker, Linux, Chrome DevTools Protocol (CDP), Model Context Protocol (MCP) |
 
 ---
