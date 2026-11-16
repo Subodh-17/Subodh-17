@@ -6,7 +6,6 @@
 [![Formal Peer Reviews](https://img.shields.io/badge/Peer_Reviews-6_Submitted_(3_Approved)-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
 [![Rust Systems](https://img.shields.io/badge/Rust-Arrow_|_DataFusion-dea584?style=flat-square&logo=rust&logoColor=black)](https://www.rust-lang.org)
 [![Python ML](https://img.shields.io/badge/Python-PyTorch_|_Diffusers-3776ab?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![GSoC 2027](https://img.shields.io/badge/GSoC_2027-Aspirant-f59e0b?style=flat-square&logo=google&logoColor=white)](https://summerofcode.withgoogle.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Subodh-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subodh-b-b705b5403)
 [![Email](https://img.shields.io/badge/Email-subodh171011%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:subodh171011@gmail.com)
 
@@ -16,7 +15,7 @@
 
 I am an engineer focused on **high-performance columnar query systems (Rust / Apache Arrow), causal contract verification in AI agent runtimes, deterministic ML training execution, and resilient backend architectures**. My work emphasizes systems correctness, edge-case reproduction, zero-copy data paths, and defensive state management.
 
-I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apache DataFusion & DataFusion-Spark, Hugging Face Diffusers, PyTorch Lightning, SafeTensors, and ThreeMoonsLab Shipgate**. Across the **National Summer of Code (NSoC 2026)** program, contributions were merged across all eight targeted repositories (17 merged pull requests in total). I also submit thorough formal code reviews to Tier-1 repositories, with multiple review findings adopted by authors into subsequent patch revisions. I am actively preparing for **Google Summer of Code (GSoC 2027)** across the Apache Software Foundation and PyTorch ecosystems.
+I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apache DataFusion & DataFusion-Spark, Hugging Face Diffusers, PyTorch Lightning, SafeTensors, and ThreeMoonsLab Shipgate**. Across the **National Summer of Code (NSoC 2026)** program, contributions were merged across all eight targeted repositories (17 merged pull requests in total). I also submit thorough formal code reviews to Tier-1 repositories, with multiple review findings adopted by authors into subsequent patch revisions.
 
 ---
 
@@ -393,9 +392,9 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
 
 ---
 
-## 8. Google Summer of Code (GSoC 2027) Direction
+## 8. Open-Source Ecosystem Focus & Strategic Alignment
 
-I am actively focusing my open-source contributions, design studies, and engineering depth toward **Google Summer of Code (GSoC 2027)**, specifically targeting mentoring organizations where systems performance, correctness, and data engineering intersect:
+I actively focus my open-source contributions, design studies, and engineering depth across ecosystems where systems performance, correctness, and data engineering intersect:
 
 1. **The Apache Software Foundation (ASF):**
    - *Target Ecosystems:* **Apache DataFusion** and **Apache Arrow-rs**.
@@ -407,8 +406,6 @@ I am actively focusing my open-source contributions, design studies, and enginee
 3. **Hugging Face Ecosystem:**
    - *Target Ecosystems:* **Diffusers**, **PEFT**, and **SafeTensors**.
    - *Demonstrated Alignment:* Merged adapter introspection across multi-text-encoder pipelines (`#14961`), 6 active PRs spanning `torch.compile` compatibility, sharded checkpoint resolution, and prior-preservation loss scaling; SafeTensors strided tensor deduplication (`#927`).
-
-*(Note: GSoC 2027 represents a targeted preparation and contribution direction; it does not imply official organization selection, endorsement, or formal mentorship).*
 
 ---
 
@@ -430,4 +427,4 @@ All public pull requests, merge commits, formal code reviews, unit tests, and op
 - **LinkedIn Profile:** [`Subodh`](https://www.linkedin.com/in/subodh-b-b705b5403)
 - **Primary Email:** `subodh171011@gmail.com`
 - **Location:** Maharashtra, India
-- **Availability:** Open for systems engineering roles, open-source collaborations, and GSoC 2027 project discussions.
+- **Availability:** Open for systems engineering roles, open-source collaborations, and technical project discussions.
