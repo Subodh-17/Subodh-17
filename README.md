@@ -1,8 +1,8 @@
 # Subodh
 
 [![GitHub](https://img.shields.io/badge/GitHub-Subodh--17-0f172a?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
-[![Verified PR Census](https://img.shields.io/badge/Authored_PRs-94_Lifetime_(47_Merged)-10b981?style=flat-square&logo=git&logoColor=white)](https://github.com/Subodh-17)
-[![Open Contributions](https://img.shields.io/badge/Open_PRs-20_Open-2563eb?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
+[![Verified PR Census](https://img.shields.io/badge/Authored_PRs-94_Lifetime_(50_Merged)-10b981?style=flat-square&logo=git&logoColor=white)](https://github.com/Subodh-17)
+[![Open Contributions](https://img.shields.io/badge/Open_PRs-16_Open-2563eb?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
 [![Formal Peer Reviews](https://img.shields.io/badge/Peer_Reviews-6_Submitted_(3_Approved)-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
 [![Rust Systems](https://img.shields.io/badge/Rust-Arrow_|_DataFusion-dea584?style=flat-square&logo=rust&logoColor=black)](https://www.rust-lang.org)
 [![Python ML](https://img.shields.io/badge/Python-PyTorch_|_Diffusers-3776ab?style=flat-square&logo=python&logoColor=white)](https://python.org)
@@ -35,20 +35,20 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
 | Metric Category | Verified Count | Verification Scope & Authority |
 |---|:---:|---|
 | **Total Lifetime Authored Pull Requests** | **94** | GitHub Search API (`gh search prs --author=Subodh-17`) |
-| **Merged Pull Requests (Total)** | **47** | Formally merged into primary or target branches |
-| ↳ *External Upstream Open Source* | *29* | Merged into DataFusion, Diffusers, DevTrack, Shipgate, AgentWatch, etc. |
+| **Merged Pull Requests (Total)** | **50** | Formally merged into primary or target branches |
+| ↳ *External Upstream Open Source* | *32* | Merged into DataFusion, DataFusion-Spark, Diffusers, DevTrack, Shipgate, AgentWatch, etc. |
 | ↳ *Personal Production & Research Codebases* | *18* | Merged feature branches in Marine Pollution (8), Subodh-17 (9), Logistics (1) |
-| **Currently Open Contributions** | **20** | Open PRs across upstream, mentored, and personal repositories, regardless of current review activity. |
-| ↳ *Tier-1 Broader Open Source* | *16* | Arrow-rs (2), DataFusion-Spark (3), Lightning (2), Diffusers (6), SafeTensors, MS-Swift, TENET-AI |
+| **Currently Open Contributions** | **16** | Open PRs across upstream, mentored, and personal repositories, regardless of current review activity. |
+| ↳ *Tier-1 Broader Open Source* | *12* | Arrow-rs, Lightning (2), Diffusers (6), SafeTensors, MS-Swift, TENET-AI |
 | ↳ *Mentored / Personal Codebases* | *4* | Shipgate (`#1141`), Observability Platform (`#37`), PatchPilot (`#354`), Marine Pollution (`#9`) |
-| **Closed / Unmerged Pull Requests** | **27** | Documented exploratory investigations, superseded revisions, and policy closures |
+| **Closed / Unmerged Pull Requests** | **28** | Documented exploratory investigations, superseded revisions, and policy closures |
 | ↳ *Mentored Superseded Pull Requests* | *2* | `CodePrism#66` (superseded by merged `#70`), `Sentient#274` |
-| ↳ *Broader Open Source Closed PRs* | *25* | Documented investigations across DataFusion, Transformers, MLflow, mloda, SafeTensors, Airbyte |
+| ↳ *Broader Open Source Closed PRs* | *26* | Documented investigations across Arrow-rs, DataFusion, Transformers, MLflow, mloda, SafeTensors, Airbyte |
 | **Formal Peer Code Reviews** | **6** | Submitted across PyTorch Lightning (2), SafeTensors (3), and MLflow (1) |
 | ↳ *Approved Reviews* | *3* | `safetensors#900`, `safetensors#898`, `pytorch-lightning#22182` |
 | ↳ *Changes Requested Reviews* | *2* | `safetensors#913`, `pytorch-lightning#22142` |
 | ↳ *Commented Reviews* | *1* | `mlflow#27631` |
-| **Mathematical Identity** | **94 = 47 + 20 + 27** | **Strict mathematical reconciliation: zero uncataloged entries** |
+| **Mathematical Identity** | **94 = 50 + 16 + 28** | **Strict mathematical reconciliation: zero uncataloged entries** |
 | **NSoC 2026 Repository Coverage** | **8 / 8** | **17 merged pull requests across all 8 targeted NSoC repositories (>=1 merged PR in each)** |
 | **ECSoC 2026 Mentored Contributions** | **2** | 2 merged pull requests in `Karan-Raj-KR/crewai-recipes` (#229, #242) |
 
@@ -63,11 +63,11 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
   * *Problem:* In Apache DataFusion's scalar mathematical benchmark suite (`datafusion/functions/benches/gcd.rs`), array fixture generators passed mismatched row parameters across Criterion execution matrices, corrupting throughput measurements for SIMD greatest-common-divisor routines.
   * *Change:* Corrected configuration plumbing to propagate user-configured row counts systematically across all benchmark iteration loops.
   * *Evidence:* Merged upstream by DataFusion PMC Chair Andrew Lamb on 2026-10-19 (Merge SHA: `384d6464`).
-* **[apache/arrow-rs#12280](https://github.com/apache/arrow-rs/pull/12280)** — `fix(variant): display canonical Arrow type names in string/binary cast errors` (**OPEN — FORK CI PASSING**)
+* **[apache/datafusion-spark#116](https://github.com/apache/datafusion-spark/pull/116)** — `fix(string): match Spark 4 encode charset and error behavior (#46)` (**MERGED**)
   [![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black)](https://www.rust-lang.org) [![Apache Arrow](https://img.shields.io/badge/Apache_Arrow-E10079?style=flat-square&logo=apachearrow&logoColor=white)](https://arrow.apache.org)
-  * *Problem:* In Apache Arrow's Parquet Variant extension implementation, cast failures leaked raw internal Rust builder type names into user error messages (e.g., `GenericByteBuilder<GenericByteArray<GenericStringType<i32>>>`), causing confusing diagnostics downstream in engines like DataFusion (`datafusion-variant#173`).
-  * *Change:* Restructured `variant_get_string` and `variant_get_binary` in `parquet-variant-compute` and added canonical `.type_name()` implementations across all six builder types: byte arrays (`Utf8`, `LargeUtf8`, `Binary`, `LargeBinary`) and view types (`Utf8View`, `BinaryView`).
-  * *Evidence:* Resolves Issue #12214. Fork CI completed with 100% success across 27 jobs (Run `43830248687`). Upstream ASF CI is awaiting standard committer authorization (`action_required`).
+  * *Problem:* In Apache DataFusion-Spark's string expression kernel, string encoding routines failed to adhere to Spark 4 charset mapping and error behavior on invalid input byte sequences (`#46`).
+  * *Change:* Implemented compliant charset encoding logic, handling replacement characters and error modes matching Spark 4 specifications.
+  * *Evidence:* Merged upstream into `apache/datafusion-spark:main` on 2026-11-16 (Merge SHA: `359ca1c2`).
 
 ### Machine Learning Infrastructure & Training Determinism
 
@@ -204,74 +204,73 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
 
 ## 6. Pull Request Contributions & Engineering Investigations
 
-### A. Merged Upstream Pull Requests (29 PRs)
+### A. Merged Upstream Pull Requests (32 PRs)
 
 <details open>
-<summary><b>View All 29 Formally Merged Upstream Pull Requests</b></summary>
+<summary><b>View All 32 Formally Merged Upstream Pull Requests</b></summary>
 
 | # | Repository | PR | Functional Scope | Merge Date | Merge Commit |
 |:---:|---|:---:|---|:---:|:---:|
-| 1 | `deepikagandla74/ai-campus-placement-agent` | [#423](https://github.com/deepikagandla74/ai-campus-placement-agent/pull/423) | `feat: add user-controlled leaderboard opt-out` | 2026-11-15 | `4631fbe` |
-| 2 | `adityalenova/cyrus` | [#151](https://github.com/adityalenova/cyrus/pull/151) | `test(api): add saved tracking authorization integration coverage` | 2026-11-14 | `7ed16f0` |
-| 3 | `VarshithReddy2006/DevTrack` | [#171](https://github.com/VarshithReddy2006/DevTrack/pull/171) | `fix(auth): harden ClerkUserSyncService against account takeover (#115)` | 2026-11-11 | `438c472` |
-| 4 | `Muskankr/OpenSourceMate` | [#245](https://github.com/Muskankr/OpenSourceMate/pull/245) | `test: add shared sanitized GitHub API fixtures` | 2026-11-10 | `84f9b01` |
-| 5 | `WhatBreaks/WhatBreaks` | [#27](https://github.com/WhatBreaks/WhatBreaks/pull/27) | `feat(core-engine): add version transition modeling (#18)` | 2026-11-10 | `7f66ed6` |
-| 6 | `adityalenova/cyrus` | [#119](https://github.com/adityalenova/cyrus/pull/119) | `fix(sitemap): correct hub frequencies and derived lastmod` | 2026-11-08 | `aa99bfd` |
-| 7 | `ThreeMoonsLab/agents-shipgate` | [#1106](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1106) | `fix(privacy): redact AWS path keys and URL-safe Basic credentials` | 2026-11-06 | `1e3e372` |
-| 8 | `ThreeMoonsLab/agents-shipgate` | [#1105](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1105) | `fix(host-grants): handle YAML timestamps in config hashing` | 2026-11-06 | `eebcb51` |
-| 9 | `adityalenova/cyrus` | [#113](https://github.com/adityalenova/cyrus/pull/113) | `fix(catalog): return total and pages pagination metadata for /api/catalog/repos` | 2026-11-05 | `86d72f4` |
-| 10 | `knight22-21/CodePrism` | [#79](https://github.com/knight22-21/CodePrism/pull/79) | `fix(security): include pinned versions in OSV vulnerability queries` | 2026-11-05 | `27f9f4a` |
-| 11 | `sanjaysaini383/observability-platform` | [#35](https://github.com/sanjaysaini383/observability-platform/pull/35) | `feat(ci): add automated checks for project services` | 2026-11-03 | `036e6b97` |
-| 12 | `aeshef/obsidian-agent` | [#68](https://github.com/aeshef/obsidian-agent/pull/68) | `feat: add per-chart reset control` | 2026-10-30 | `d84b7db5` |
-| 13 | `Karan-Raj-KR/crewai-recipes` | [#242](https://github.com/Karan-Raj-KR/crewai-recipes/pull/242) | `feat(customer-onboarding): add --json output flag (#169)` | 2026-10-28 | `c279a9d7` |
-| 14 | `Shinraya-Tech-Labs/AgentWatch` | [#784](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/784) | `feat(mcp): add MCP error normalizer and code classifier (fixes #745)` | 2026-10-26 | `416444a7` |
-| 15 | `Karan-Raj-KR/crewai-recipes` | [#229](https://github.com/Karan-Raj-KR/crewai-recipes/pull/229) | `feat(playground): basic in-memory rate limiting to prevent runaway loops (#181)` | 2026-10-24 | `fece08a3` |
-| 16 | `ionfwsrijan/PatchPilot` | [#350](https://github.com/ionfwsrijan/PatchPilot/pull/350) | `feat(security): prioritize findings by normalized severity` | 2026-10-23 | `94950e40` |
-| 17 | `DivyashreeR008/Open-Agents` | [#406](https://github.com/DivyashreeR008/Open-Agents/pull/406) | `test(recommendation): add automated scoring tests` | 2026-10-20 | `a0d1ff84` |
-| 18 | `Shinraya-Tech-Labs/AgentWatch` | [#757](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/757) | `feat(normalizers): implement OTel GenAI v2 and MCP protocol normalizers (#732)` | 2026-10-20 | `d6cda134` |
-| 19 | `Shinraya-Tech-Labs/AgentWatch` | [#754](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/754) | `feat(contracts): implement interval temporal logic and happens-before ordering (#729)` | 2026-10-20 | `2cf6ed3b` |
-| 20 | `Shinraya-Tech-Labs/AgentWatch` | [#753](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/753) | `feat(contracts): implement sequence-gap detection and dynamic capture profile (#730)` | 2026-10-19 | `e0b1ae07` |
-| 21 | `apache/datafusion` | [#26465](https://github.com/apache/datafusion/pull/26465) | `fix(functions): pass correct number_rows in gcd benchmarks` | 2026-10-19 | `384d6464` |
-| 22 | `existence-master/Sentient` | [#326](https://github.com/existence-master/Sentient/pull/326) | `fix(mcp): isolate OAuth credentials by server URL` | 2026-10-13 | `011d4650` |
-| 23 | `existence-master/Sentient` | [#295](https://github.com/existence-master/Sentient/pull/295) | `fix(browser): preserve user downloads when attached` | 2026-10-12 | `0d7c8742` |
-| 24 | `ThreeMoonsLab/agents-shipgate` | [#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007) | `fix: support PEP 508 extras-qualified pins in dependency lock verification` | 2026-10-09 | `600dc8b3` |
-| 25 | `huggingface/diffusers` | [#14961](https://github.com/huggingface/diffusers/pull/14961) | `Fix active adapter detection for text encoders` | 2026-10-08 | `e0415c41` |
-| 26 | `knight22-21/CodePrism` | [#72](https://github.com/knight22-21/CodePrism/pull/72) | `fix: reject unknown configuration keys` | 2026-10-03 | `8b9c46eb` |
-| 27 | `knight22-21/CodePrism` | [#70](https://github.com/knight22-21/CodePrism/pull/70) | `fix: parse requirement specifications correctly` | 2026-10-03 | `656d2de8` |
-| 28 | `batrapulkit/squidbrake` | [#51](https://github.com/batrapulkit/squidbrake/pull/51) | `ci: test on Windows, macOS, and Python 3.13` | 2026-10-02 | `335260a9` |
-| 29 | `corsairdev/corsair` | [#1398](https://github.com/corsairdev/corsair/pull/1398) | `feat: add Dynapictures plugin` | 2026-09-02 | `8b55578b` |
+| 1 | `apache/datafusion-spark` | [#116](https://github.com/apache/datafusion-spark/pull/116) | `fix(string): match Spark 4 encode charset and error behavior (#46)` | 2026-11-16 | `359ca1c` |
+| 2 | `apache/datafusion-spark` | [#118](https://github.com/apache/datafusion-spark/pull/118) | `fix(datetime): respect ANSI mode in next_day (#113)` | 2026-11-16 | `5d56182` |
+| 3 | `apache/datafusion-spark` | [#119](https://github.com/apache/datafusion-spark/pull/119) | `fix(datetime): avoid premature overflow in make_dt_interval (#109)` | 2026-11-16 | `7a17ed5` |
+| 4 | `deepikagandla74/ai-campus-placement-agent` | [#423](https://github.com/deepikagandla74/ai-campus-placement-agent/pull/423) | `feat: add user-controlled leaderboard opt-out` | 2026-11-15 | `4631fbe` |
+| 5 | `adityalenova/cyrus` | [#151](https://github.com/adityalenova/cyrus/pull/151) | `test(api): add saved tracking authorization integration coverage` | 2026-11-14 | `7ed16f0` |
+| 6 | `VarshithReddy2006/DevTrack` | [#171](https://github.com/VarshithReddy2006/DevTrack/pull/171) | `fix(auth): harden ClerkUserSyncService against account takeover (#115)` | 2026-11-11 | `438c472` |
+| 7 | `Muskankr/OpenSourceMate` | [#245](https://github.com/Muskankr/OpenSourceMate/pull/245) | `test: add shared sanitized GitHub API fixtures` | 2026-11-10 | `84f9b01` |
+| 8 | `WhatBreaks/WhatBreaks` | [#27](https://github.com/WhatBreaks/WhatBreaks/pull/27) | `feat(core-engine): add version transition modeling (#18)` | 2026-11-10 | `7f66ed6` |
+| 9 | `adityalenova/cyrus` | [#119](https://github.com/adityalenova/cyrus/pull/119) | `fix(sitemap): correct hub frequencies and derived lastmod` | 2026-11-08 | `aa99bfd` |
+| 10 | `ThreeMoonsLab/agents-shipgate` | [#1106](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1106) | `fix(privacy): redact AWS path keys and URL-safe Basic credentials` | 2026-11-06 | `1e3e372` |
+| 11 | `ThreeMoonsLab/agents-shipgate` | [#1105](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1105) | `fix(host-grants): handle YAML timestamps in config hashing` | 2026-11-06 | `eebcb51` |
+| 12 | `adityalenova/cyrus` | [#113](https://github.com/adityalenova/cyrus/pull/113) | `fix(catalog): return total and pages pagination metadata for /api/catalog/repos` | 2026-11-05 | `86d72f4` |
+| 13 | `knight22-21/CodePrism` | [#79](https://github.com/knight22-21/CodePrism/pull/79) | `fix(security): include pinned versions in OSV vulnerability queries` | 2026-11-05 | `27f9f4a` |
+| 14 | `sanjaysaini383/observability-platform` | [#35](https://github.com/sanjaysaini383/observability-platform/pull/35) | `feat(ci): add automated checks for project services` | 2026-11-03 | `036e6b97` |
+| 15 | `aeshef/obsidian-agent` | [#68](https://github.com/aeshef/obsidian-agent/pull/68) | `feat: add per-chart reset control` | 2026-10-30 | `d84b7db5` |
+| 16 | `Karan-Raj-KR/crewai-recipes` | [#242](https://github.com/Karan-Raj-KR/crewai-recipes/pull/242) | `feat(customer-onboarding): add --json output flag (#169)` | 2026-10-28 | `c279a9d7` |
+| 17 | `Shinraya-Tech-Labs/AgentWatch` | [#784](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/784) | `feat(mcp): add MCP error normalizer and code classifier (fixes #745)` | 2026-10-26 | `416444a7` |
+| 18 | `Karan-Raj-KR/crewai-recipes` | [#229](https://github.com/Karan-Raj-KR/crewai-recipes/pull/229) | `feat(playground): basic in-memory rate limiting to prevent runaway loops (#181)` | 2026-10-24 | `fece08a3` |
+| 19 | `ionfwsrijan/PatchPilot` | [#350](https://github.com/ionfwsrijan/PatchPilot/pull/350) | `feat(security): prioritize findings by normalized severity` | 2026-10-23 | `94950e40` |
+| 20 | `DivyashreeR008/Open-Agents` | [#406](https://github.com/DivyashreeR008/Open-Agents/pull/406) | `test(recommendation): add automated scoring tests` | 2026-10-20 | `a0d1ff84` |
+| 21 | `Shinraya-Tech-Labs/AgentWatch` | [#757](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/757) | `feat(normalizers): implement OTel GenAI v2 and MCP protocol normalizers (#732)` | 2026-10-20 | `d6cda134` |
+| 22 | `Shinraya-Tech-Labs/AgentWatch` | [#754](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/754) | `feat(contracts): implement interval temporal logic and happens-before ordering (#729)` | 2026-10-20 | `2cf6ed3b` |
+| 23 | `Shinraya-Tech-Labs/AgentWatch` | [#753](https://github.com/Shinraya-Tech-Labs/AgentWatch/pull/753) | `feat(contracts): implement sequence-gap detection and dynamic capture profile (#730)` | 2026-10-19 | `e0b1ae07` |
+| 24 | `apache/datafusion` | [#26465](https://github.com/apache/datafusion/pull/26465) | `fix(functions): pass correct number_rows in gcd benchmarks` | 2026-10-19 | `384d6464` |
+| 25 | `existence-master/Sentient` | [#326](https://github.com/existence-master/Sentient/pull/326) | `fix(mcp): isolate OAuth credentials by server URL` | 2026-10-13 | `011d4650` |
+| 26 | `existence-master/Sentient` | [#295](https://github.com/existence-master/Sentient/pull/295) | `fix(browser): preserve user downloads when attached` | 2026-10-12 | `0d7c8742` |
+| 27 | `ThreeMoonsLab/agents-shipgate` | [#1007](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1007) | `fix: support PEP 508 extras-qualified pins in dependency lock verification` | 2026-10-09 | `600dc8b3` |
+| 28 | `huggingface/diffusers` | [#14961](https://github.com/huggingface/diffusers/pull/14961) | `Fix active adapter detection for text encoders` | 2026-10-08 | `e0415c41` |
+| 29 | `knight22-21/CodePrism` | [#72](https://github.com/knight22-21/CodePrism/pull/72) | `fix: reject unknown configuration keys` | 2026-10-03 | `8b9c46eb` |
+| 30 | `knight22-21/CodePrism` | [#70](https://github.com/knight22-21/CodePrism/pull/70) | `fix: parse requirement specifications correctly` | 2026-10-03 | `656d2de8` |
+| 31 | `batrapulkit/squidbrake` | [#51](https://github.com/batrapulkit/squidbrake/pull/51) | `ci: test on Windows, macOS, and Python 3.13` | 2026-10-02 | `335260a9` |
+| 32 | `corsairdev/corsair` | [#1398](https://github.com/corsairdev/corsair/pull/1398) | `feat: add Dynapictures plugin` | 2026-09-02 | `8b55578b` |
 
 </details>
 
 ---
 
-### B. Currently Open Contributions (20 PRs)
+### B. Currently Open Contributions (16 PRs)
 
 <details>
-<summary><b>View All 20 Open Pull Requests and Current Status</b></summary>
+<summary><b>View All 16 Open Pull Requests and Current Status</b></summary>
 
 | # | Repository | PR | Title / Engineering Scope | Category | Live Workflow / Review Status |
 |:---:|---|:---:|---|:---:|---|
-| 1 | `apache/arrow-rs` | [#12280](https://github.com/apache/arrow-rs/pull/12280) | `fix(variant): display canonical Arrow type names in string/binary cast errors` | Core Rust / Arrow | Fork CI passing (27 jobs); Upstream CI awaiting committer authorization; no maintainer review |
-| 2 | `apache/arrow-rs` | [#12135](https://github.com/apache/arrow-rs/pull/12135) | `fix(variant): reject duplicate object keys in strict casts` | Core Rust / Arrow | CI passing; no recorded maintainer review |
-| 3 | `apache/datafusion-spark` | [#119](https://github.com/apache/datafusion-spark/pull/119) | `fix(datetime): avoid premature overflow in make_dt_interval (#109)` | Core Rust / Spark | CI passing; no recorded maintainer review |
-| 4 | `apache/datafusion-spark` | [#118](https://github.com/apache/datafusion-spark/pull/118) | `fix(datetime): respect ANSI mode in next_day (#113)` | Core Rust / Spark | CI passing; no recorded maintainer review |
-| 5 | `apache/datafusion-spark` | [#116](https://github.com/apache/datafusion-spark/pull/116) | `fix(string): match Spark 4 encode charset and error behavior (#46)` | Core Rust / Spark | CI passing; no recorded maintainer review |
-| 6 | `safetensors/safetensors` | [#927](https://github.com/safetensors/safetensors/pull/927) | `fix(torch): handle disjoint interleaved shared tensor views` | ML / SafeTensors | CI passing; storage deduplication fix for #926; no recorded maintainer review |
-| 7 | `Lightning-AI/pytorch-lightning` | [#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006) | `fix: set sampler epoch before creating resumed iterator` | Distributed ML | Community reviewed (@anishpentyala); CI passing; awaiting maintainer review |
-| 8 | `Lightning-AI/pytorch-lightning` | [#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017) | `Improve error message for mixed strategy namespaces` | Distributed ML | 11/11 CI jobs passing; no recorded maintainer review |
-| 9 | `huggingface/diffusers` | [#14990](https://github.com/huggingface/diffusers/pull/14990) | `fix: support torch compile for Qwen Image 2.1` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 10 | `huggingface/diffusers` | [#14984](https://github.com/huggingface/diffusers/pull/14984) | `fix: preserve singleton dimensions in numpy_to_pil` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 11 | `huggingface/diffusers` | [#14983](https://github.com/huggingface/diffusers/pull/14983) | `fix: remove incorrect text_ids concatenation in Flux DreamBooth LoRA training` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 12 | `huggingface/diffusers` | [#14982](https://github.com/huggingface/diffusers/pull/14982) | `Fix prior preservation weighting in advanced DreamBooth LoRA` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 13 | `huggingface/diffusers` | [#14971](https://github.com/huggingface/diffusers/pull/14971) | `Fix offline loading of sharded checkpoints` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 14 | `huggingface/diffusers` | [#14963](https://github.com/huggingface/diffusers/pull/14963) | `Validate PNDM inference step count` | ML / Diffusers | CI passing; no recorded maintainer review |
-| 15 | `modelscope/ms-swift` | [#10289](https://github.com/modelscope/ms-swift/pull/10289) | `fix: handle cli help command` | ML / LLM | CI passing; no recorded maintainer review |
-| 16 | `TENET-DEV-AI/TENET-AI` | [#335](https://github.com/TENET-DEV-AI/TENET-AI/pull/335) | `feat(security): add agent action interposition layer` | AI Security | No recorded maintainer review |
-| 17 | `ThreeMoonsLab/agents-shipgate` | [#1141](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1141) | `fix(privacy): include source-omission redactions in final privacy audit snapshot (#586)` | Mentored / Security | 15/15 CI checks passing; under maintainer review |
-| 18 | `sanjaysaini383/observability-platform` | [#37](https://github.com/sanjaysaini383/observability-platform/pull/37) | `chore(dashboard): remove stray UI components directory` | Mentored / Infra | No recorded maintainer review |
-| 19 | `ionfwsrijan/PatchPilot` | [#354](https://github.com/ionfwsrijan/PatchPilot/pull/354) | `fix(findings): persist triaged status across page reloads` | Mentored / Security | Assigned by maintainer; functional CI passing; awaiting maintainer review |
-| 20 | `Subodh-17/marine-pollution-intelligence`| [#9](https://github.com/Subodh-17/marine-pollution-intelligence/pull/9) | `fix(routing): calculate exact route-to-polygon distance with penetration` | Personal / GIS | Personal feature branch open; local test suite passing |
+| 1 | `ThreeMoonsLab/agents-shipgate` | [#1141](https://github.com/ThreeMoonsLab/agents-shipgate/pull/1141) | `fix(privacy): include source-omission redactions in final privacy audit snapshot (#586)` | Mentored / Security | 15/15 CI checks passing; under maintainer review |
+| 2 | `safetensors/safetensors` | [#927](https://github.com/safetensors/safetensors/pull/927) | `fix(torch): handle disjoint interleaved shared tensor views` | ML / SafeTensors | CI passing (DCO); storage deduplication fix for #926; awaiting maintainer review |
+| 3 | `Lightning-AI/pytorch-lightning` | [#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006) | `fix: set sampler epoch before creating resumed iterator` | Distributed ML | Community reviewed (@anishpentyala); core tests passing; awaiting maintainer review |
+| 4 | `ionfwsrijan/PatchPilot` | [#354](https://github.com/ionfwsrijan/PatchPilot/pull/354) | `fix(findings): persist triaged status across page reloads` | Mentored / Security | Assigned by maintainer (Issue #320); backend tests passing; awaiting maintainer review |
+| 5 | `Subodh-17/marine-pollution-intelligence` | [#9](https://github.com/Subodh-17/marine-pollution-intelligence/pull/9) | `fix(routing): calculate exact route-to-polygon distance with penetration` | Personal / GIS | Personal feature branch open; local test suite passing |
+| 6 | `Lightning-AI/pytorch-lightning` | [#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017) | `Improve error message for mixed strategy namespaces` | Distributed ML | 11/11 CI jobs passing; community reviewed (@anishpentyala); awaiting maintainer review |
+| 7 | `huggingface/diffusers` | [#14990](https://github.com/huggingface/diffusers/pull/14990) | `fix: support torch compile for Qwen Image 2.1` | ML / Diffusers | 4/4 CI checks passing; awaiting maintainer triage |
+| 8 | `huggingface/diffusers` | [#14971](https://github.com/huggingface/diffusers/pull/14971) | `Fix offline loading of sharded checkpoints` | ML / Diffusers | 4/4 CI checks passing; secret scan false-positive documented; awaiting maintainer triage |
+| 9 | `huggingface/diffusers` | [#14983](https://github.com/huggingface/diffusers/pull/14983) | `fix: remove incorrect text_ids concatenation in Flux DreamBooth LoRA training` | ML / Diffusers | 4/4 CI checks passing; awaiting maintainer triage |
+| 10 | `huggingface/diffusers` | [#14982](https://github.com/huggingface/diffusers/pull/14982) | `Fix prior preservation weighting in advanced DreamBooth LoRA` | ML / Diffusers | 4/4 CI checks passing; awaiting maintainer triage |
+| 11 | `apache/arrow-rs` | [#12135](https://github.com/apache/arrow-rs/pull/12135) | `fix(variant): reject duplicate object keys in strict casts` | Core Rust / Arrow | Fork CI passing; strict policy freeze; awaiting maintainer evaluation |
+| 12 | `huggingface/diffusers` | [#14984](https://github.com/huggingface/diffusers/pull/14984) | `fix: preserve singleton dimensions in numpy_to_pil` | ML / Diffusers | 4/4 CI checks passing; awaiting maintainer triage |
+| 13 | `huggingface/diffusers` | [#14963](https://github.com/huggingface/diffusers/pull/14963) | `Validate PNDM inference step count` | ML / Diffusers | 4/4 CI checks passing; awaiting maintainer triage |
+| 14 | `sanjaysaini383/observability-platform` | [#37](https://github.com/sanjaysaini383/observability-platform/pull/37) | `chore(dashboard): remove stray UI components directory` | Mentored / Infra | 7/7 CI checks passing; awaiting maintainer review |
+| 15 | `modelscope/ms-swift` | [#10289](https://github.com/modelscope/ms-swift/pull/10289) | `fix: handle cli help command` | ML / LLM | Awaiting maintainer review |
+| 16 | `TENET-DEV-AI/TENET-AI` | [#335](https://github.com/TENET-DEV-AI/TENET-AI/pull/335) | `feat(security): add agent action interposition layer` | AI Security | Automated bot review comments posted; CI security scan failing |
 
 </details>
 
@@ -280,12 +279,13 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
 ### C. Selected Closed Contributions & Engineering Investigations
 
 <details>
-<summary><b>View Selected Closed Investigations (10 Examples from 27 Closed Records)</b></summary>
+<summary><b>View Selected Closed Investigations (11 Examples from 28 Closed Records)</b></summary>
 
 *These records reflect substantive technical investigations, root-cause analyses, and implementations that were closed due to upstream organization AI policies, maintainer reassignments, or alternative architectural directions:*
 
 | Repository | PR | Architectural Scope & Implementation | Context / Disposition |
 |---|:---:|---|---|
+| `apache/arrow-rs` | [#12280](https://github.com/apache/arrow-rs/pull/12280) | Display canonical Arrow type names in string/binary cast errors (#12214) | Closed — account-level AI-policy concern regarding excessive open PRs across unrelated repositories; no technical defect was stated in the closure comment. |
 | `apache/datafusion` | [#27260](https://github.com/apache/datafusion/pull/27260) | Match Spark 4 encode charset behavior | Superseded by DataFusion-Spark subproject migration |
 | `apache/datafusion` | [#26376](https://github.com/apache/datafusion/pull/26376) | Differentiate aggregate function schemas (#26221) | 1,200 LOC across 36 files; closed under organization AI policy on 2026-10-29 |
 | `apache/datafusion` | [#26993](https://github.com/apache/datafusion/pull/26993) | Preserve min/max when merging all-null statistics | Closed following alternative statistics merge strategy |
@@ -313,7 +313,7 @@ I actively contribute to open-source ecosystems including **Apache Arrow-rs, Apa
 | Language | Verified Version / Scope | Primary Implementation Context |
 |---|---|---|
 | **Python** | 3.10 – 3.13 | Core ML/agent infrastructure (PyTorch, Diffusers, AgentWatch, Shipgate, Marine Pollution, Logistics) |
-| **Rust** | 2021 Edition / Cargo | Apache DataFusion SIMD benchmarks (`#26465`), Arrow-rs type handling (`#12280`, `#12135`), WhatBreaks (`#27`) |
+| **Rust** | 2021 Edition / Cargo | DataFusion SIMD benchmarks (`#26465`), DataFusion-Spark (`#116`, `#118`, `#119`), Arrow-rs (`#12135`), WhatBreaks (`#27`) |
 | **TypeScript** | 5.x / Strict Mode | DevTrack Clerk sync hardening (`#171`), PatchPilot triage persistence (`#350`, `#354`), Corsair SDK (`#1398`) |
 | **JavaScript** | ES2022+ / Node.js 20+ | OpenSourceMate metric sync (`#245`), Blueledger REST API, Marine Pollution interactive SPA |
 | **Solidity** | 0.8.20 / Hardhat | Batch-tracked ecological carbon credit registry smart contract (`BlueCarbonRegistry.sol`) |
@@ -398,7 +398,7 @@ I actively focus my open-source contributions, design studies, and engineering d
 
 1. **The Apache Software Foundation (ASF):**
    - *Target Ecosystems:* **Apache DataFusion** and **Apache Arrow-rs**.
-   - *Demonstrated Alignment:* Merged Rust code in DataFusion Criterion benchmark harnesses (`#26465`), active contributions to Apache DataFusion-Spark 4 expression compatibility (`#116`, `#118`, `#119`), and canonical type error formatting and duplicate key validation in Arrow-rs Parquet Variant (`#12280`, `#12135`).
+   - *Demonstrated Alignment:* Merged Rust code in DataFusion Criterion benchmark harnesses (`#26465`), merged Rust contributions to Apache DataFusion-Spark 4 expression compatibility (`#116`, `#118`, `#119`), and Parquet Variant duplicate key validation in Arrow-rs (`#12135`).
    - *Focus Areas:* Columnar memory representations, vectorized SIMD execution kernels, logical/physical query optimization, and memory-safe zero-copy IPC.
 2. **PyTorch / The Linux Foundation / Lightning AI:**
    - *Target Ecosystems:* Distributed training infrastructure, executor determinism, and dynamic compilation.
