@@ -12,17 +12,31 @@ I spend most of my time writing query execution kernels in the Apache Arrow and 
 ---
 
 <!-- OSS_DASHBOARD:START -->
-## Open-Source Activity
+## Open-Source Contributions
 
-[![Merged Upstream](https://img.shields.io/badge/Merged_Upstream-37_PRs-10b981?style=flat-square&logo=git&logoColor=white)](https://github.com/Subodh-17)
-[![Open Upstream](https://img.shields.io/badge/Open_Upstream-25_PRs-2563eb?style=flat-square&logo=git&logoColor=white)](https://github.com/Subodh-17)
-[![Repositories Contributed](https://img.shields.io/badge/Repositories_Contributed-25+-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/Subodh-17)
+A verified snapshot of contributions across core data systems, ML infrastructure, and developer ecosystems:
 
-A live snapshot of contributions across data systems, ML infrastructure, and runtime verification:
+### Core Systems & ML Infrastructure (Claude OSS)
+- **Merged Upstream (5 PRs):**
+  - **Apache DataFusion:** [#26465](https://github.com/apache/datafusion/pull/26465) — Fix row-count propagation in scalar GCD Criterion benchmarks.
+  - **Apache DataFusion-Spark:** [#116](https://github.com/apache/datafusion-spark/pull/116) — Spark 4 string charset encoding and runtime error alignment; [#118](https://github.com/apache/datafusion-spark/pull/118) — ANSI mode error enforcement in `next_day`; [#119](https://github.com/apache/datafusion-spark/pull/119) — Microsecond overflow prevention in `make_dt_interval`.
+  - **Hugging Face Diffusers:** [#14961](https://github.com/huggingface/diffusers/pull/14961) — Multi-LoRA active adapter state leakage fix across secondary text encoders.
+- **Open / Under Active Review (18 PRs):**
+  - **Apache DataFusion-Spark:** [#390](https://github.com/apache/datafusion-spark/pull/390) [Pending Review] — Port overflow handling and error normalization in `parse_url`; [#401](https://github.com/apache/datafusion-spark/pull/401) [Pending Review] — Untyped null rejection and type coercion in `array_contains`; [#402](https://github.com/apache/datafusion-spark/pull/402) [Pending Review] — Null-typed column rejection and Spark-aligned null coercion in `stack`.
+  - **Apache DataFusion:** [#27643](https://github.com/apache/datafusion/pull/27643) [Pending Review] — Cumulative `Utf8` array offset capacity check in `repeat`; [#27561](https://github.com/apache/datafusion/pull/27561) [Pending Review] — Partition column min/max statistics handling on empty files.
+  - **Apache Arrow (Rust):** [#12389](https://github.com/apache/arrow-rs/pull/12389) [Pending Review] — Decimal safe-cast overflow handling under extreme scale increases; [#12315](https://github.com/apache/arrow-rs/pull/12315) [Pending Roll-up] — Bound gzip and brotli decompression in Parquet; [#12135](https://github.com/apache/arrow-rs/pull/12135) [Pending Review] — Strict duplicate key rejection in Parquet Variant parsing.
+  - **SafeTensors:** [#927](https://github.com/safetensors/safetensors/pull/927) [Pending Review] — Disjoint interleaved shared tensor views in PyTorch serialization.
+  - **PyTorch Lightning:** [#22017](https://github.com/Lightning-AI/pytorch-lightning/pull/22017) [Pending Review] — Strategy namespace diagnostic error messages; [#22006](https://github.com/Lightning-AI/pytorch-lightning/pull/22006) [Pending Review] — Resumed DataLoader sampler epoch sequencing.
+  - **Hugging Face Diffusers:** [#14990](https://github.com/huggingface/diffusers/pull/14990), [#14984](https://github.com/huggingface/diffusers/pull/14984), [#14983](https://github.com/huggingface/diffusers/pull/14983), [#14982](https://github.com/huggingface/diffusers/pull/14982), [#14971](https://github.com/huggingface/diffusers/pull/14971), [#14963](https://github.com/huggingface/diffusers/pull/14963) [Pending Review] — Model loading, LoRA weighting, torch.compile support, and scheduler validation.
+  - **ModelScope Swift:** [#10289](https://github.com/modelscope/ms-swift/pull/10289) [Pending Review] — CLI help command handler.
+- **Formal Code Reviews Submitted (15 PRs):**
+  - Peer code reviews on pull requests across Apache DataFusion (including merged [#27501](https://github.com/apache/datafusion/pull/27501)), Apache Arrow-rs (including merged [#12293](https://github.com/apache/arrow-rs/pull/12293)), SafeTensors (approved [#900](https://github.com/safetensors/safetensors/pull/900)), PyTorch Lightning, and MLflow.
+- **Authored Issues & RFCs (3):**
+  - **RFC:** [apache/datafusion#26425](https://github.com/apache/datafusion/issues/26425) — WindowAggExec streaming execution plan design.
+  - **Issues:** [mlflow/mlflow#27862](https://github.com/mlflow/mlflow/issues/27862) — SQL escaped apostrophe handling in search filters; [apache/arrow-rs#12200](https://github.com/apache/arrow-rs/issues/12200) — ByteViewArrayDecoder Plain 32-bit wrap handling (resolved).
 
-- **Merged Upstream (37 PRs):** Merged code in Apache DataFusion, DataFusion-Spark, Hugging Face Diffusers, DevTrack, AgentWatch, and the NSoC ecosystem.
-- **Open Upstream (25 PRs):** Active PRs under review across Apache Arrow-rs, Apache DataFusion, PyTorch Lightning, SafeTensors, and Diffusers.
-- **Repositories Contributed (25+):** Contributions spanning the Apache Software Foundation, Hugging Face, PyTorch / Lightning AI, and AI agent platforms.
+### Program & Mentored Open Source (NSoC / Hackathons)
+- **Merged (29 PRs):** Mentored program contributions across DevTrack ([VarshithReddy2006/DevTrack](https://github.com/VarshithReddy2006/DevTrack) — 18 PRs merged: Redis stream sharding, saga cohort rollover, MongoDB change stream search indexing), ReconGrid-AI ([AkshayHaldar/ReconGrid-AI](https://github.com/AkshayHaldar/ReconGrid-AI) — 2 PRs merged: CSV column mapper, bank statement parsers), AgentWatch, and community event repositories.
 <!-- OSS_DASHBOARD:END -->
 
 ---
@@ -59,9 +73,9 @@ A live snapshot of contributions across data systems, ML infrastructure, and run
 [![Apache Arrow](https://img.shields.io/badge/Apache%20Arrow-E23337?style=flat-square&logo=apachearrow&logoColor=white)](https://arrow.apache.org/)
 [![Apache DataFusion](https://img.shields.io/badge/Apache%20DataFusion-D22128?style=flat-square&logo=apache&logoColor=white)](https://datafusion.apache.org/)
 
-- **[Apache DataFusion](https://github.com/apache/datafusion):** Merged fix for benchmark row-count propagation in scalar GCD Criterion benchmarks ([#26465](https://github.com/apache/datafusion/pull/26465)); submitted cumulative `Utf8` array offset overflow protection in `repeat` ([#27643](https://github.com/apache/datafusion/pull/27643)) and partition metadata handling fixes ([#27561](https://github.com/apache/datafusion/pull/27561)).
-- **[DataFusion-Spark](https://github.com/apache/datafusion-spark):** Merged compatibility fixes matching Spark 4 string charset encoding ([#116](https://github.com/apache/datafusion-spark/pull/116)), datetime interval overflow handling ([#118](https://github.com/apache/datafusion-spark/pull/118), [#119](https://github.com/apache/datafusion-spark/pull/119)); submitted `parse_url` port overflow validation ([#390](https://github.com/apache/datafusion-spark/pull/390)) and null-type guards for `array_contains` and `stack` ([#401](https://github.com/apache/datafusion-spark/pull/401), [#402](https://github.com/apache/datafusion-spark/pull/402)).
-- **[Apache Arrow (Rust)](https://github.com/apache/arrow-rs):** Submitted decimal safe-cast overflow handling under extreme scale expansion in `arrow-cast` ([#12389](https://github.com/apache/arrow-rs/pull/12389)), Parquet decompression bounds ([#12315](https://github.com/apache/arrow-rs/pull/12315)), and strict duplicate key rejection in Parquet Variant parsing ([#12135](https://github.com/apache/arrow-rs/pull/12135)).
+- **[Apache DataFusion](https://github.com/apache/datafusion):** Merged fix for benchmark row-count propagation in scalar GCD Criterion benchmarks ([#26465](https://github.com/apache/datafusion/pull/26465)); submitted cumulative `Utf8` array offset overflow protection in `repeat` ([#27643](https://github.com/apache/datafusion/pull/27643), pending review) and partition metadata handling fixes ([#27561](https://github.com/apache/datafusion/pull/27561), pending review).
+- **[DataFusion-Spark](https://github.com/apache/datafusion-spark):** Merged compatibility fixes matching Spark 4 string charset encoding ([#116](https://github.com/apache/datafusion-spark/pull/116)) and datetime interval overflow handling ([#118](https://github.com/apache/datafusion-spark/pull/118), [#119](https://github.com/apache/datafusion-spark/pull/119)); submitted port overflow validation in `parse_url` ([#390](https://github.com/apache/datafusion-spark/pull/390), pending review), untyped null rejection in `array_contains` ([#401](https://github.com/apache/datafusion-spark/pull/401), pending review), and null-typed column handling in `stack` ([#402](https://github.com/apache/datafusion-spark/pull/402), pending review).
+- **[Apache Arrow (Rust)](https://github.com/apache/arrow-rs):** Submitted decimal safe-cast overflow handling under extreme scale expansion in `arrow-cast` ([#12389](https://github.com/apache/arrow-rs/pull/12389), pending review), bounded decompression in Parquet ([#12315](https://github.com/apache/arrow-rs/pull/12315), pending roll-up), and strict duplicate key rejection in Parquet Variant parsing ([#12135](https://github.com/apache/arrow-rs/pull/12135), pending review).
 
 ### [Marine Pollution Intelligence](https://github.com/Subodh-17/marine-pollution-intelligence)
 *Autonomous satellite radar (SAR) oil spill segmentation and hydrodynamic drift hindcasting platform.*
